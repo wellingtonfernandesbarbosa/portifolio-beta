@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+    background: linear-gradient(236.85deg, #041832 27.26%, #3468a7 96.03%);
+    font-family: "Roboto", sans-serif;
+    width: 99vw;
+    height: auto;
+    margin: 5px;
+}
+
+.container {
+    background: #ecf4ff;
+    color: #1c1c1c;
+    margin: 64px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 6px #0e1d2f;
+    padding: 64px;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 160px;
+  align-self: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo {
+  margin-left: 20px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+main {
+    margin-top: 40px;
+}
+.projetos {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(230.65deg, #499CFE 27.49%, #9CC8FC 83.19%);
+    box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+    border-radius: 20px;
+}
+
+ul {
+    padding: 0;
+}
+
+.titulo-projetos {
+    text-align: center;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.projeto-itens {
+    text-align: center;
+    font-weight: 400;
+    font-size: 36px;
+    padding: 21px 0px;
+
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.projeto-itens a {
+    text-decoration: none;
+    color: #1C1C1C;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        padding: 10px;
+        width: 93vw;
+        height: 800px;
+        margin: 5px;
+    }
+    
+    .perfil-foto {
+    max-height: 120px;
+    }
+
+    .titulo {
+      margin-left: 10px;
+    }
+    
+    .container {
+        margin: 5px;
+        padding: 20px 17px 20px 17px;
+    }
+    
+    .titulo h1 {
+        font-size: 21px;
+    }
+    
+    .titulo h3 {
+        font-size: 18px;
+    }
+    
+    main {
+        margin-top: 5px;
+        padding-bottom: 25px;
+    }
+    
+    .titulo-projetos {
+    text-align: center;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 10px;
+    }
+    
+    .projeto-itens {
+        padding: 10px 0;
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+  
+}
