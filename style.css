@@ -4,7 +4,6 @@ body {
     background: linear-gradient(236.85deg, #041832 27.26%, #3468a7 96.03%);
     font-family: "Roboto", sans-serif;
     width: 99vw;
-    height: auto;
     margin: 5px;
 }
 
@@ -98,13 +97,14 @@ ul {
     text-align: center;
     font-weight: 700;
     font-size: 48px;
-    margin: 20px 0px;
+    margin: 20px 10px;
 }
 
 .projeto-itens {
     text-align: center;
     font-weight: 400;
     font-size: 36px;
+    margin-top: 16px;
 
     list-style-type: none;
     text-decoration: none;
@@ -124,11 +124,11 @@ ul {
     }
     
     .perfil-foto {
-    max-height: 120px;
+        max-height: 120px;
     }
 
     .titulo {
-      margin-left: 10px;
+        margin-left: 10px;
     }
     
     .container {
@@ -160,8 +160,4 @@ ul {
         padding: 10px 0;
         font-size: 24px;
     }
-}
-
-@media screen and (max-width: 768px) {
-  
 }
