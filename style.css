@@ -47,14 +47,19 @@ body {
 }
 
 .tema button {
-    width: 170px;
-    height: 61px;
+    width: 80px;
+    height: 80px;
     align-self: flex-end;
     font-size: 24px;
     font-weight: 400;
     background:#ECF4FF;
     border-radius: 100px;
     border: 2px solid #0E1D2F;
+    padding: 10px 0;
+}
+
+.icone-sol{
+    width: 60px;
 }
 
 .dark {
@@ -159,5 +164,16 @@ ul {
     .projeto-itens {
         padding: 10px 0;
         font-size: 24px;
+    }
+
+    .tema button {
+        width: 50px;
+        height: 50px;
+        padding: 0;
+    }
+
+    .icone-sol {
+        width: 42px;
+        padding-top: 2px;
     }
 }
