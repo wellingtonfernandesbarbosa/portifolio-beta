@@ -167,13 +167,13 @@ ul {
     }
 
     .tema button {
-        width: 50px;
-        height: 50px;
+        width: 60px;
+        height: 60px;
         padding: 0;
     }
 
     .icone-sol {
         width: 42px;
-        padding-top: 2px;
+        padding-top: 6px;
     }
 }
