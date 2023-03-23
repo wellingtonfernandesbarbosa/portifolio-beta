@@ -31,7 +31,7 @@ main {
     margin-bottom: 1em;
 }
 
-.dark .projetos__titulo, .projetos__site, a {
+.dark .projetos__titulo .projetos__site {
     background: #333439;
     color: #F6F6F6;
 }
