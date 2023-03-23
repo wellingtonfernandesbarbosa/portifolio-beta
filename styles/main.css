@@ -5,10 +5,6 @@ main {
 .projetos {
     display: flex;
     flex-direction: column;
-    background: linear-gradient(230.65deg, #499CFE 27.49%, #9CC8FC 83.19%);
-    box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
-    border-radius: 20px;
-    padding: 0 5%;
 }
 
 .projetos__titulo {
@@ -35,9 +31,15 @@ main {
     margin-bottom: 1em;
 }
 
+.dark .projetos__titulo, .projetos__site, a {
+    background: #333439;
+    color: #F6F6F6;
+}
+
 .projetos__imagem {
     width: 600px;
     border-radius: 20px;
+    box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
 }
 
 .projetos__imagem:hover {
