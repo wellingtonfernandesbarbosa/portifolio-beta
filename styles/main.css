@@ -36,7 +36,7 @@ main {
 }
 
 .projetos__imagem {
-    width: 600px;
+    width: 70%;
     border-radius: 20px;
     box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
 }
@@ -47,13 +47,13 @@ main {
     transition: all 0.3s ease-out;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     .projetos__site {
         margin-bottom: 0.5em;
     }
     
     .projetos__imagem {
-        width: 420px;
+        width: 100%;
         border-radius: 20px;
     }
 }
@@ -78,6 +78,6 @@ main {
     }
 
     .projetos__imagem {
-        width: 280px;
+        width: 100%;
     }
 }
