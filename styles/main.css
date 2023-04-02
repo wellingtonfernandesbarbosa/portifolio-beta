@@ -18,43 +18,111 @@ main {
     text-align: center;
     font-weight: 400;
     font-size: 36px;
-    margin: 32px 0;
+    margin: 32px 0 64px;
 
     list-style-type: none;
     text-decoration: none;
 }
 
-.projetos__site, a {
-    display: block;
+.projetos__site{
     text-decoration: none;
     color: #1C1C1C;
     margin-bottom: 1em;
 }
 
-.dark .projetos__titulo, .dark .projetos__site {
+.dark .projetos__titulo, .dark .projetos__site, .dark p {
     color: #F6F6F6;
 }
 
+.projetos__informacoes{
+    display: flex;
+}
+
+.inverter__sessao{
+    flex-direction: row-reverse;
+}
+
 .projetos__imagem {
+    width: 50%;
+}
+
+.imagem__site {
     width: 70%;
+    margin: auto;
     border-radius: 20px;
     box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
 }
 
-.projetos__imagem:hover {
+.imagem__site:hover {
     transform: scale(1.1);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     transition: all 0.3s ease-out;
 }
 
+.projetos__detalhes {
+    text-align: start;
+    width: 50%;
+}
+
+p {
+    padding: 0.5em 2em;
+    font-size: 16px;
+    line-height: 1.3em;
+    font-weight: 400;
+}
+
+.projetos__links {
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5em;
+}
+
+.link__botao {
+    font-size:16px;
+    text-decoration: none;
+	font-weight:bold;
+	padding:18px 38px;
+    font-family:Arial;
+    border-width:1px;
+    color:#ffffff;
+    border-color:#124d77;
+    border-radius:7px;
+    background:rgba(22, 27, 34, 0.83);
+  }
+  
+  .link__botao:hover {
+    background: rgba(34, 37, 43, 0.74)
+  }
+
+  .link__botao:active {
+	position:relative;
+	top:1px;
+}
+              
 @media screen and (max-width: 800px) {
+    .projetos__informacoes {
+        display: block;
+    }
+
+    .inverter__sessao {
+        flex-direction: row;
+    }
+    .projetos__itens{
+        display: block;
+    }
+
     .projetos__site {
-        margin-bottom: 0.5em;
+        margin: 1em;
     }
     
     .projetos__imagem {
         width: 100%;
-        border-radius: 20px;
+    }
+
+    .projetos__detalhes {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 1em;
     }
 }
 
