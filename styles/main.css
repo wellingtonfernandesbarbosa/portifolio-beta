@@ -168,7 +168,8 @@ p {
     }
 
     .imagem__site {
-        width: 95%;
+        width: 88%;
+        border-radius: 15px;
     }
 
     .projetos__detalhes {
