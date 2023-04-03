@@ -15,10 +15,10 @@ main {
 }
 
 .projetos__itens {
+    height: 460px;
     text-align: center;
     font-weight: 400;
     font-size: 36px;
-    margin: 32px 0 64px;
 
     list-style-type: none;
     text-decoration: none;
@@ -27,7 +27,7 @@ main {
 .projetos__site{
     text-decoration: none;
     color: #1C1C1C;
-    margin-bottom: 1em;
+    margin: 1em;
 }
 
 .dark .projetos__titulo, .dark .projetos__site, .dark p {
@@ -43,6 +43,10 @@ main {
 }
 
 .projetos__imagem {
+    display: flex;
+    height: 350px;
+    flex-direction: row;
+    justify-content: center;
     width: 50%;
 }
 
@@ -60,6 +64,9 @@ main {
 }
 
 .projetos__detalhes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     text-align: start;
     width: 50%;
 }
@@ -108,11 +115,12 @@ p {
         flex-direction: row;
     }
     .projetos__itens{
+        height: fit-content;
         display: block;
     }
 
     .projetos__site {
-        margin: 1em;
+        margin: 1em 0 0 0;
     }
     
     .projetos__imagem {
@@ -147,5 +155,14 @@ p {
 
     .projetos__imagem {
         width: 100%;
+        height: 220px;
+    }
+
+    .imagem__site {
+        width: 80%;
+    }
+
+    .projetos__detalhes {
+        height: 300px;
     }
 }
